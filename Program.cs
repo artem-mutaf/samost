@@ -11,7 +11,7 @@ namespace samostoialka
         static void Main(string[] args)
         {
             int x = int.Parse(Console.ReadLine());
-            Console.Write("Введите в какую степень хотите возвести ");
+            Console.Write("Число вводится в куб");
             int step = 3;
             Console.WriteLine($"Число {x} в степени {step} = " + Math.Pow(x,step));
             Console.ReadKey();
